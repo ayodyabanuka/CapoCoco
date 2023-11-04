@@ -104,7 +104,7 @@ const Home = () => {
                                    </div>
 
                             </div>
-                            <div className="mt-0 bg-white/60 px-4 py-10 backdrop-blur-md rounded-3xl">
+                            <div className="mt-0  md:hidden bg-white/60 px-4 text-[#572807] py-10 backdrop-blur-md rounded-3xl">
                                    <div className="font-extrabold text-5xl xl:text-[70px] text-center lg:leading-[55px]">
                                           THE ULTIMATE
                                           REFRESHING
