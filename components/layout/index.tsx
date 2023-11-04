@@ -17,7 +17,7 @@ const Layout = ({ children }: Props) => {
                      <Header />
                      <AnimatePresence mode="wait">
                             <Container
-                                   className={`antialiased mt-5 md:mt-0 min-h-[90vh]`}
+                                   className={`antialiased mt-5 md:mt-0 min-h-[100vh] lg:min-h-[90vh]`}
                             >
                                    {children}
                             </Container>
