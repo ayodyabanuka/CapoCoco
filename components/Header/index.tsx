@@ -3,6 +3,8 @@ import Image from "next/image"
 import Link from "next/link";
 import { useRouter } from "next/router"
 import { FaSpinner } from 'react-icons/fa';
+import Menutoggle from "./Menutoggle";
+import MobileNav from "./sideNav";
 
 const Header = () => {
        const router = useRouter();
@@ -28,14 +30,14 @@ const Header = () => {
 
        const [isOpen, toggleOpen] = useCycle(false, true);
        return (
-              <>
+              <div>
                      <motion.div
                             initial={false}
                             animate={isOpen}
                             variants={headerVariant}
                             className={`w-full`}
                      >
-                            <div className="hidden lg:flex items-center justify-between p-5 xl:mx-[240px] mx-0">
+                            <div className="hidden lg:flex items-center justify-between p-5 xl:mx-[240px] min-[1440px]:mx-10 mx-0">
                                    <Image src={"/logo.png"} width={70} height={70} alt={"logo"} />
                                    <div className="flex gap-5 text-[#42454A] text-[14px]">
                                           {NavList.map((item) =>
@@ -45,21 +47,30 @@ const Header = () => {
                             </div>
 
                             <div className="lg:hidden flex justify-between bg-white text-black p-5">
-                                   <motion.button
-                                          initial={{ opacity: 0 }}
-                                          animate={{ opacity: 1 }}
-                                          exit={{ opacity: 0 }}
-                                          className="cursor-pointer justify-center items-center"
-                                          onClick={() => toggleOpen()}
-                                   >
-                                          <FaSpinner />
-                                   </motion.button>
+                                   <div className="bg-white">
+                                          <AnimatePresence>
+
+                                                 <Menutoggle toggle={() => toggleOpen()} isOpen={isOpen} />
+
+                                          </AnimatePresence>
+
+                                          <div className="flex flex-row">
+                                                 <AnimatePresence>
+                                                        {!isOpen && (
+                                                               <div className="flex justify-center items-center space-x-1 absolute top-[21px] right-3">
+                                                               </div>
+                                                        )}
+                                                 </AnimatePresence>
+                                          </div>
+                                   </div>
+
+                                   <MobileNav isOpen={isOpen} toggleOpen={toggleOpen} />
                                    <Image src={"/logo.png"} width={70} height={70} alt={"logo"} />
                                    <div className="text-black"></div>
 
                             </div>
                      </motion.div>
-              </>
+              </div>
        )
 }
 
