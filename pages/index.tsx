@@ -74,34 +74,37 @@ const Home = () => {
 
                             </div>
                      </div>
-                     <div className="flex flex-col md:hidden rounded-[40px] text-[#572807] w-full bg-cover h-[510px] bg-[url('/homemobileback.png')]">
-                            <div className="md:hidden mt-20 flex justify-center relative">
+                     <div>
+                            <div className="flex flex-col md:hidden rounded-[40px] text-[#572807] w-full bg-cover h-[510px] bg-[url('/homemobileback.png')]">
+                                   <div className="md:hidden mt-20 flex justify-center relative">
 
-                                   <motion.div className="absolute -top-10 "
-                                          initial={{ y: -0, scale: 1 }}
-                                          animate={{ y: [-20, -35, -20], scale: 1 }}
-                                          transition={{ repeat: Infinity, duration: 3 }}
+                                          <motion.div className="absolute -top-10 "
+                                                 initial={{ y: -0, scale: 1 }}
+                                                 animate={{ y: [-20, -35, -20], scale: 1 }}
+                                                 transition={{ repeat: Infinity, duration: 3 }}
 
-                                   >
-                                          <Image src={"/can2.png"} alt={"cans"} width={180} height={100}></Image>
+                                          >
+                                                 <Image src={"/can2.png"} alt={"cans"} width={180} height={100}></Image>
 
-                                   </motion.div>
-                                   <motion.div
-                                          className="top-0 left-0"
-                                          initial={{ y: -2, scale: 1.2 }}
-                                          animate={{ y: [-2, -14, -2], scale: 1.2 }}
-                                          transition={{ repeat: Infinity, duration: 3 }}
+                                          </motion.div>
+                                          <motion.div
+                                                 className="top-0 left-0"
+                                                 initial={{ y: -2, scale: 1.2 }}
+                                                 animate={{ y: [-2, -14, -2], scale: 1.2 }}
+                                                 transition={{ repeat: Infinity, duration: 3 }}
 
-                                   >
-                                          <Image src={"/can1.png"} alt={"cans"} width={150} height={100}></Image>
+                                          >
+                                                 <Image src={"/can1.png"} alt={"cans"} width={150} height={100}></Image>
 
-                                   </motion.div>
+                                          </motion.div>
 
 
 
+
+                                   </div>
 
                             </div>
-                            <div className="mt-10 bg-white/60 px-4 py-10 backdrop-blur-md rounded-3xl">
+                            <div className="mt-0 bg-white/60 px-4 py-10 backdrop-blur-md rounded-3xl">
                                    <div className="font-extrabold text-5xl xl:text-[70px] text-center lg:leading-[55px]">
                                           THE ULTIMATE
                                           REFRESHING
