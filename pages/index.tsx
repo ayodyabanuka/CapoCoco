@@ -74,7 +74,7 @@ const Home = () => {
 
                             </div>
                      </div>
-                     <div className="flex flex-col md:hidden text-[#572807] w-full bg-cover h-[510px] bg-[url('/homemobileback.png')]">
+                     <div className="flex flex-col md:hidden rounded-[40px] text-[#572807] w-full bg-cover h-[510px] bg-[url('/homemobileback.png')]">
                             <div className="md:hidden mt-20 flex justify-center relative">
 
                                    <motion.div className="absolute -top-10 "
