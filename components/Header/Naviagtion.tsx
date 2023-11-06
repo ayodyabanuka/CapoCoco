@@ -26,7 +26,7 @@ const menu = [
   {
     id: 5,
     title: 'Sustainability',
-    url: '/contact-us',
+    url: '/sustainability',
   },
   {
     id: 6,

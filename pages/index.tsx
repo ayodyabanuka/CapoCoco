@@ -3,15 +3,15 @@ import Image from "next/image"
 
 const Home = () => {
        return (
-              <div className="text-black flex mx-0">
-                     <div className="hidden md:flex lg:m-10 w-full h-[80vh] text-[#572807] rounded-3xl justify-between items-center px-0 lg:px-24 bg-cover bg-[url('/home-bg.png')]">
+              <div className="text-black flex">
+                     <div className="hidden md:flex my-10 max-w-[1920px] mx-10 h-[80vh] rounded-3xl justify-between items-center px-0 lg:px-24  bg-cover bg-[url('/home-bg.png')]">
                             <div className="w-2/3 p-20 bg-white/5  rounded-3xl h-fit">
-                                   <div className="font-extrabold text-5xl xl:text-[70px]  lg:leading-[55px] w-1/2">
+                                   <div className="font-extrabold text-4xl lg:text-5xl xl:text-[70px] text-[#CFB023] lg:leading-[55px] w-1/2">
                                           THE ULTIMATE
                                           REFRESHING
                                           EXPERIENCE
                                    </div>
-                                   <div className="font-medium text-[24px] mt-6 leading-[30px] ">
+                                   <div className="font-medium md:text-base lg:text-[24px] text-[#A17D42] mt-6 leading-6 lg:leading-[30px] ">
                                           Treat yourself to a wonderful taste of pure organic goodness with Capo Coco.
                                           Embark on a journey to feel refreshed and revived.
                                    </div>
@@ -24,7 +24,7 @@ const Home = () => {
                                           transition={{ repeat: Infinity, duration: 3 }}
 
                                    >
-                                          <Image src={"/can2.png"} alt={"cans"} width={300} height={100}></Image>
+                                          <Image src={"/can2.png"} alt={"cans"} width={270} height={100}></Image>
 
                                    </motion.div>
                                    <motion.div
@@ -34,7 +34,7 @@ const Home = () => {
                                           transition={{ repeat: Infinity, duration: 3 }}
 
                                    >
-                                          <Image src={"/can1.png"} alt={"cans"} width={300} height={100}></Image>
+                                          <Image src={"/can1.png"} alt={"cans"} width={250} height={100}></Image>
 
                                    </motion.div>
                                    <motion.div
@@ -44,7 +44,7 @@ const Home = () => {
                                           transition={{ repeat: Infinity, duration: 3 }}
 
                                    >
-                                          <Image src={"/shadow.png"} alt={"cans"} width={300} height={100}></Image>
+                                          <Image src={"/shadow.png"} alt={"cans"} width={260} height={100}></Image>
 
                                    </motion.div>
 
@@ -74,7 +74,7 @@ const Home = () => {
 
                             </div>
                      </div>
-                     <div>
+                     <div className="mx-3">
                             <div className="flex flex-col md:hidden rounded-[40px] text-[#572807] w-full bg-cover h-[450px] bg-[url('/homemobileback.png')]">
                                    <div className="md:hidden mt-20 flex justify-center relative">
 
@@ -104,13 +104,13 @@ const Home = () => {
                                    </div>
 
                             </div>
-                            <div className="mt-0  md:hidden bg-white/60 px-4 text-[#572807] py-10 backdrop-blur-md rounded-3xl">
-                                   <div className="font-extrabold text-5xl xl:text-[70px] text-center lg:leading-[55px]">
+                            <div className="mt-0  md:hidden bg-white/60 px-4  py-10 backdrop-blur-md rounded-3xl">
+                                   <div className="font-extrabold text-4xl xl:text-[70px] text-[#CFB023] text-center lg:leading-[55px]">
                                           THE ULTIMATE
                                           REFRESHING
                                           EXPERIENCE
                                    </div>
-                                   <div className="font-medium text-[20px] text-justify mt-6 leading-[30px] ">
+                                   <div className="font-medium text-[20px] text-justify mt-6 text-[#A17D42] leading-[30px] ">
                                           Treat yourself to a wonderful taste of pure organic goodness with Capo Coco.
                                           Embark on a journey to feel refreshed and revived.
                                    </div>

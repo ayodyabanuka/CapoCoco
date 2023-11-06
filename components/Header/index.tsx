@@ -35,9 +35,9 @@ const Header = () => {
                             initial={false}
                             animate={isOpen}
                             variants={headerVariant}
-                            className={`w-full`}
+                            className={`w-full flex justify-center`}
                      >
-                            <div className="hidden lg:flex items-center justify-between p-5 xl:mx-[240px] min-[1440px]:mx-10 mx-0">
+                            <div className="hidden lg:flex items-center lg:mx-10 max-w-[1540px] w-full justify-between p-5 ">
                                    <Image src={"/logo.png"} width={70} height={70} alt={"logo"} />
                                    <div className="flex gap-5 text-[#42454A] text-[14px]">
                                           {NavList.map((item) =>
