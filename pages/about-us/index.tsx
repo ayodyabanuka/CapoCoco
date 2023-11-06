@@ -1,19 +1,21 @@
 import Image from "next/image"
 const AboutUs = () => {
        return (
-              <div>
-                     <div className="hidden md:flex max-w-[1920px] mx-10 my-10  h-[80vh] justify-between items-center px-0 lg:px-24 bg-[#FFF4E2]  rounded-3xl ">
-                            <div className="xl:block md:block hidden" >
-                                   <Image src={"/aboutus.png"} alt={"aboutus"} width={300} height={300} />
-                            </div >
-                            <div className="xl:hidden md:hidden block" >
-                                   <Image src={"/aboutus.png"} alt={"aboutus"} width={280} height={280} />
-                            </div >
+              <div className="flex items-center">
+                     <div className="hidden md:flex max-w-[1920px] mx-10 my-10  h-[80vh] justify-center items-center px-0 lg:px-24 bg-[#FFF4E2]  rounded-3xl ">
+                            <div>
+                                   <div className="xl:block md:block hidden" >
+                                          <Image src={"/aboutus.png"} alt={"aboutus"} width={300} height={300} />
+                                   </div >
+                                   <div className="xl:hidden md:hidden block" >
+                                          <Image src={"/aboutus.png"} alt={"aboutus"} width={280} height={280} />
+                                   </div >
+                            </div>
                             <div className="w-2/3 p-20 bg-white/5  rounded-3xl h-fit">
-                                   <div className="font-extrabold text-5xl xl:text-[70px] text-[#CFB023] lg:leading-[55px]">
+                                   <div className="font-extrabold text-5xl xl:text-[40px] text-[#CFB023] lg:leading-[55px]">
                                           About Us
                                    </div>
-                                   <div className="font-medium text-[24px] mt-6 leading-[30px] text-[#A17D42]">
+                                   <div className="font-medium text-[20px] mt-3 leading-[25px] text-[#A17D42]">
                                           At the heart of our brand lies an extraordinary story of passion and authenticity. Born on a tropical island, Capo Coco was founded with a single mission – to share the goodness of these natural treasures with the world.
                                           Our journey is a tribute to the art of preserving purity of nature in every drop, bringing you more than just a beverage.
                                    </div>

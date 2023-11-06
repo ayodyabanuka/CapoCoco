@@ -6,14 +6,11 @@ const Home = () => {
               <div className="text-black flex">
                      <div className="hidden md:flex my-10 max-w-[1920px] mx-10 h-[80vh] rounded-3xl justify-between items-center px-0 lg:px-24  bg-cover bg-[url('/home-bg.png')]">
                             <div className="w-2/3 p-20 bg-white/5  rounded-3xl h-fit">
-                                   <div className="font-extrabold text-4xl lg:text-5xl xl:text-[70px] text-[#CFB023] lg:leading-[55px] w-1/2">
-                                          THE ULTIMATE
-                                          REFRESHING
-                                          EXPERIENCE
+                                   <div className="font-extrabold text-4xl lg:text-5xl capitalize xl:text-[70px] text-[#CFB023] lg:leading-[60px] w-2/3">
+                                          Pure organic goodness in every sip
                                    </div>
                                    <div className="font-medium md:text-base lg:text-[24px] text-[#A17D42] mt-6 leading-6 lg:leading-[30px] ">
-                                          Treat yourself to a wonderful taste of pure organic goodness with Capo Coco.
-                                          Embark on a journey to feel refreshed and revived.
+                                          Hydrate and refresh with Capo Coco – produced by nature
                                    </div>
                             </div>
                             <div className="mr-36 xl:block md:hidden hidden relative">
@@ -105,14 +102,11 @@ const Home = () => {
 
                             </div>
                             <div className="mt-0  md:hidden bg-white/60 px-4  py-10 backdrop-blur-md rounded-3xl">
-                                   <div className="font-extrabold text-4xl xl:text-[70px] text-[#CFB023] text-center lg:leading-[55px]">
-                                          THE ULTIMATE
-                                          REFRESHING
-                                          EXPERIENCE
+                                   <div className="font-extrabold text-4xl xl:text-[70px] capitalize text-[#CFB023] text-center lg:leading-[55px]">
+                                          Pure organic goodness in every sip
                                    </div>
                                    <div className="font-medium text-[20px] text-justify mt-6 text-[#A17D42] leading-[30px] ">
-                                          Treat yourself to a wonderful taste of pure organic goodness with Capo Coco.
-                                          Embark on a journey to feel refreshed and revived.
+                                          Hydrate and refresh with Capo Coco – produced by nature
                                    </div>
                             </div>
                      </div>
