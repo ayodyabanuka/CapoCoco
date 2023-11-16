@@ -15,56 +15,107 @@ const Home = () => {
                             </div>
                             <div className="mr-36 xl:block md:hidden hidden relative">
 
-                                   <motion.div className="absolute -top-10 -left-10"
-                                          initial={{ y: -5, scale: 1 }}
-                                          animate={{ y: [-5, -25, -5], scale: 1 }}
+                                   <motion.div className="absolute"
+                                          initial={{ scale: 2 }}
+                                          animate={{ y: [-5, -25, -5], rotate: [1, 10, 1], scale: 2 }}
                                           transition={{ repeat: Infinity, duration: 3 }}
 
                                    >
-                                          <Image src={"/can2.png"} alt={"cans"} width={270} height={100}></Image>
+                                          <Image src={"/1.png"} alt={"cans"} width={500} quality={100} height={400}></Image>
 
                                    </motion.div>
                                    <motion.div
-                                          className="top-0 left-0"
-                                          initial={{ y: -2, scale: 1 }}
-                                          animate={{ y: [-2, -14, -2], scale: 1 }}
+                                          className="absolute "
+                                          initial={{ scale: 2 }}
+                                          animate={{ y: [-2, -12, -2], scale: 2 }}
                                           transition={{ repeat: Infinity, duration: 3 }}
 
                                    >
-                                          <Image src={"/can1.png"} alt={"cans"} width={250} height={100}></Image>
+                                          <Image src={"/2.png"} alt={"cans"} width={500} quality={100} height={400}></Image>
 
                                    </motion.div>
                                    <motion.div
-                                          className="bottom-10 left-0"
-                                          initial={{ scale: 1 }}
-                                          animate={{ scale: [1, 1.1, 1] }}
+                                          className="absolute "
+                                          initial={{ scale: 2 }}
+                                          animate={{ y: [-2, -11, -2], scale: 2 }}
                                           transition={{ repeat: Infinity, duration: 3 }}
 
                                    >
-                                          <Image src={"/shadow.png"} alt={"cans"} width={260} height={100}></Image>
+                                          <Image src={"/3.png"} alt={"cans"} width={500} quality={100} height={400}></Image>
 
                                    </motion.div>
+                                   <motion.div
+                                          className="absolute "
+                                          initial={{ scale: 2 }}
+                                          animate={{ y: [-2, -15, -2], scale: 2 }}
+                                          transition={{ repeat: Infinity, duration: 3 }}
+
+                                   >
+                                          <Image src={"/4.png"} alt={"cans"} width={500} quality={100} height={400}></Image>
+
+                                   </motion.div>
+                                   <motion.div
+                                          className=""
+                                          initial={{ scale: 2 }}
+                                          animate={{ y: [-2, -16, -2], rotate: [-1, -5, -1], scale: 2 }}
+                                          transition={{ repeat: Infinity, duration: 3 }}
+
+                                   >
+                                          <Image src={"/5.png"} alt={"cans"} width={500} quality={100} height={400}></Image>
+
+                                   </motion.div>
+
 
                             </div>
-                            <div className="mr-36 xl:hidden block relative">
+                            <div className="md:mr-16 xl:hidden block relative">
 
-                                   <motion.div className="absolute -top-12 -left-10"
-                                          initial={{ y: -5, scale: 1 }}
-                                          animate={{ y: [-5, -25, -5], scale: 1 }}
+                                   <motion.div className="absolute"
+                                          initial={{ scale: 2 }}
+                                          animate={{ y: [-5, -25, -5], rotate: [1, 10, 1], scale: 2 }}
                                           transition={{ repeat: Infinity, duration: 3 }}
 
                                    >
-                                          <Image src={"/can2.png"} alt={"cans"} width={200} height={100}></Image>
+                                          <Image src={"/1.png"} alt={"cans"} width={500} quality={100} height={400}></Image>
 
                                    </motion.div>
                                    <motion.div
-                                          className="top-0 left-0"
-                                          initial={{ y: -2, scale: 1.2 }}
-                                          animate={{ y: [-2, -14, -2], scale: 1.2 }}
+                                          className="absolute "
+                                          initial={{ scale: 2 }}
+                                          animate={{ y: [-2, -12, -2], scale: 2 }}
                                           transition={{ repeat: Infinity, duration: 3 }}
 
                                    >
-                                          <Image src={"/can1.png"} alt={"cans"} width={200} height={100}></Image>
+                                          <Image src={"/2.png"} alt={"cans"} width={500} quality={100} height={400}></Image>
+
+                                   </motion.div>
+                                   <motion.div
+                                          className="absolute "
+                                          initial={{ scale: 2 }}
+                                          animate={{ y: [-2, -11, -2], scale: 2 }}
+                                          transition={{ repeat: Infinity, duration: 3 }}
+
+                                   >
+                                          <Image src={"/3.png"} alt={"cans"} width={500} quality={100} height={400}></Image>
+
+                                   </motion.div>
+                                   <motion.div
+                                          className="absolute "
+                                          initial={{ scale: 2 }}
+                                          animate={{ y: [-2, -15, -2], scale: 2 }}
+                                          transition={{ repeat: Infinity, duration: 3 }}
+
+                                   >
+                                          <Image src={"/4.png"} alt={"cans"} width={500} quality={100} height={400}></Image>
+
+                                   </motion.div>
+                                   <motion.div
+                                          className=""
+                                          initial={{ scale: 2 }}
+                                          animate={{ y: [-2, -16, -2], rotate: [-1, -5, -1], scale: 2 }}
+                                          transition={{ repeat: Infinity, duration: 3 }}
+
+                                   >
+                                          <Image src={"/5.png"} alt={"cans"} width={500} quality={100} height={400}></Image>
 
                                    </motion.div>
 
@@ -73,25 +124,55 @@ const Home = () => {
                      </div>
                      <div className="mx-3">
                             <div className="flex flex-col md:hidden rounded-[40px] text-[#572807] w-full bg-cover h-[450px] bg-[url('/homemobileback.png')]">
-                                   <div className="md:hidden mt-20 flex justify-center relative">
+                                   <div className="md:hidden mt-28 flex justify-center relative">
 
-                                          <motion.div className="absolute -top-10 "
-                                                 initial={{ y: -0, scale: 1 }}
-                                                 animate={{ y: [-20, -35, -20], scale: 1 }}
+                                          <motion.div className="absolute"
+                                                 initial={{ scale: 2 }}
+                                                 animate={{ y: [-5, -25, -5], rotate: [1, 10, 1], scale: 2 }}
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/can2.png"} alt={"cans"} width={180} height={100}></Image>
+                                                 <Image src={"/1mobile.png"} alt={"cans"} width={160} quality={100} height={400}></Image>
 
                                           </motion.div>
                                           <motion.div
-                                                 className="top-0 left-0"
-                                                 initial={{ y: -2, scale: 1.2 }}
-                                                 animate={{ y: [-2, -14, -2], scale: 1.2 }}
+                                                 className="absolute "
+                                                 initial={{ scale: 2 }}
+                                                 animate={{ y: [-2, -12, -2], scale: 2 }}
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/can1.png"} alt={"cans"} width={150} height={100}></Image>
+                                                 <Image src={"/2mobile.png"} alt={"cans"} width={160} quality={100} height={400}></Image>
+
+                                          </motion.div>
+                                          <motion.div
+                                                 className="absolute "
+                                                 initial={{ scale: 2 }}
+                                                 animate={{ y: [-2, -11, -2], scale: 2 }}
+                                                 transition={{ repeat: Infinity, duration: 3 }}
+
+                                          >
+                                                 <Image src={"/3mobile.png"} alt={"cans"} width={160} quality={100} height={400}></Image>
+
+                                          </motion.div>
+                                          <motion.div
+                                                 className="absolute "
+                                                 initial={{ scale: 2 }}
+                                                 animate={{ y: [-2, -15, -2], scale: 2 }}
+                                                 transition={{ repeat: Infinity, duration: 3 }}
+
+                                          >
+                                                 <Image src={"/4mobile.png"} alt={"cans"} width={160} quality={100} height={400}></Image>
+
+                                          </motion.div>
+                                          <motion.div
+                                                 className=""
+                                                 initial={{ scale: 2 }}
+                                                 animate={{ y: [-2, -16, -2], rotate: [-1, -5, -1], scale: 2 }}
+                                                 transition={{ repeat: Infinity, duration: 3 }}
+
+                                          >
+                                                 <Image src={"/5mobile.png"} alt={"cans"} width={160} quality={100} height={400}></Image>
 
                                           </motion.div>
 
