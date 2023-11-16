@@ -5,10 +5,10 @@ const AboutUs = () => {
                      <div className="hidden md:flex max-w-[1920px] mx-10 my-10  h-[80vh] justify-center items-center px-0 lg:px-24 bg-[#FFF4E2]  rounded-3xl ">
                             <div>
                                    <div className="xl:block md:block hidden" >
-                                          <Image src={"/aboutus.png"} alt={"aboutus"} width={300} height={300} />
+                                          <Image src={"/aboutus.png"} alt={"aboutus"} loading="eager" quality={100} width={400} height={350} />
                                    </div >
                                    <div className="xl:hidden md:hidden block" >
-                                          <Image src={"/aboutus.png"} alt={"aboutus"} width={280} height={280} />
+                                          <Image src={"/aboutus.png"} alt={"aboutus"} width={300} quality={100} height={600} />
                                    </div >
                             </div>
                             <div className="w-2/3 p-20 bg-white/5  rounded-3xl h-fit">
@@ -22,7 +22,7 @@ const AboutUs = () => {
                             </div>
                      </div >
 
-                     <div className="mt-0 bg-[url('/aboutusmobile.png')] flex items-center md:hidden h-[780px] justify-center rounded-[40px] bg-cover">
+                     <div className="mt-0 bg-[url('/aboutusmobile.png')] flex items-center md:hidden h-[780px] justify-center rounded-[40px] bg-cover bg-center">
                             <div className="flex flex-col items-center h-fit mt-36 bg-white/60 px-6 py-10 backdrop-blur-md rounded-[40px] mx-4">
                                    <div className="font-extrabold text-5xl xl:text-[70px] text-center text-[#CFB023] lg:leading-[55px]">
                                           About Us
