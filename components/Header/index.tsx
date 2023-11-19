@@ -41,7 +41,7 @@ const Header = () => {
                                    <Image src={"/logo.png"} width={70} height={70} alt={"logo"} />
                                    <div className="flex gap-5 text-[#42454A] text-[14px]">
                                           {NavList.map((item) =>
-                                                 <Link key={item.title} href={item.link}><div className={`${router.pathname === item.link ? "bg-[#8C6120] text-white px-2 py-1 rounded-lg" : "px-2 py-1"}`}>{item.title}</div></Link>
+                                                 <Link key={item.title} href={item.link}><div className={`${router.pathname === item.link ? "bg-[#CFB023]  text-white px-2 py-1 rounded-lg" : "px-2 py-1 hover:bg-[#bd9434] rounded-lg hover:text-white transition-all ease-in-out"}`}>{item.title}</div></Link>
                                           )}
                                    </div>
                             </div>
