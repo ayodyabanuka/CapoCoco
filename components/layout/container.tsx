@@ -11,7 +11,7 @@ const Container = ({ children, as, className, ...rest }: Props) => {
        return (
               <Component
                      {...rest}
-                     className={`container max-w-[1540px] font-montserrat mx-auto font-body ${className}`}
+                     className={`container font-montserrat mx-auto font-body ${className}`}
               >
                      {children}
               </Component>

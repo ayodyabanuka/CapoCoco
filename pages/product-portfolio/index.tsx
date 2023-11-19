@@ -3,18 +3,21 @@ const ProductPortfolio = () => {
        return (
               <div>
                      <div className="hidden md:flex xl:flex-row md:flex-col max-w-[1920px] gap-7 my-10 h-full text-white justify-between items-center px-0 lg:px-10">
-                            <div className="w-[695px] bg-yellow-700 bg-cover h-[800px] rounded-3xl bg-[url('/kingback.png')] p-16">
-                                   <div className="font-bebas -mt-10 text-[80px]">King</div>
-                                   <div className="font-bebas -mt-12 text-[55px]">Coconut Water</div>
-                                   <div className="w-[49%] mt-9 text-[20px]">Immerse yourself in the royal realm of this beverage, a single origin product harvested in a tropical paradise. Our King Coconut water is more than just a beverage – it is an experience packed with elctrolytes and nutrition that reflect the essence of the tropics.
-                                          The ultimate organic energy booster with a unique taste and multiple benefits</div>
-
+                            <div className="w-[695px] flex bg-yellow-700 bg-cover h-[800px] rounded-3xl bg-[url('/kingback.png')] p-16">
+                                   <div className="flex flex-col">
+                                          <div className="font-bebas -mt-10 text-[80px]">King</div>
+                                          <div className="font-bebas -mt-12 text-[55px]">Coconut Water</div>
+                                          <div className="w-[49%] mt-9 text-[20px]">Immerse yourself in the royal realm of this beverage, a single origin product harvested in a tropical paradise. Our King Coconut water is more than just a beverage – it is an experience packed with elctrolytes and nutrition that reflect the essence of the tropics.
+                                                 The ultimate organic energy booster with a unique taste and multiple benefits</div></div>
+                                   <Image src={"/kingbackcan.png"} width={280} quality={100} className="absolute left-1/3" height={200} alt={""}></Image>
                             </div>
                             <div className="w-[695px] flex flex-col h-[800px] items-end rounded-3xl bg-green-700 bg-cover bg-[url('/tenderback.png')] text-right p-16">
                                    <div className="font-bebas -mt-10 text-[80px]">Tender</div>
                                    <div className="font-bebas -mt-12 text-[55px]">Coconut Water</div>
                                    <div className="w-[49%] mt-9 text-[20px]">Enjoy the natural refreshing and hydrating experience of tender coconut water, sourced directly from the green plantations that dot the landscapes of Sri Lanka. With each sip you will feel the embrace of the warm breeze among the palm trees and appreciate the nature-given goodness this beverage embodies.</div>
+                                   <Image src={"/tenderbackcan.png"} width={280} quality={100} className="absolute right-1/3" height={200} alt={""}></Image>
                             </div>
+
                      </div >
                      <div className="flex flex-col gap-6 mx-4 md:hidden">
                             <div className="w-full h-[790px] rounded-[40px] px-10 py-10 bg-bottom bg-no-repeat bg-cover bg-[url('/kingbackmobile.png')]">
