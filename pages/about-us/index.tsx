@@ -29,7 +29,7 @@ const AboutUs = () => {
                             </div>
 
                             <div className="mt-0 bg-[url('/aboutusmobile.png')] flex items-center md:hidden h-[780px] justify-center rounded-[40px] bg-cover bg-center">
-                                   <motion.div variants={scrollAnimation} className="flex flex-col items-center h-fit mt-36 bg-white/60 px-6 py-10 backdrop-blur-md rounded-[40px] mx-4">
+                                   <motion.div initial={{ opacity: 0, y: -180 }} whileInView={{ opacity: 1, y: 0 }} transition={{ ease: "easeOut", duration: 1 }} className="flex flex-col items-center h-fit mt-36 bg-white/60 px-6 py-10 backdrop-blur-md rounded-[40px] mx-4">
                                           <div className="font-extrabold text-5xl xl:text-[70px] text-center text-[#CFB023] lg:leading-[55px]">
                                                  About Us
                                           </div>
