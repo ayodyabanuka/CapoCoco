@@ -7,9 +7,9 @@ import { useMemo } from "react";
 const OurProcess = () => {
        return (
 
-              <div className="lg:px-10">
+              <div className="">
 
-                     <div className="hidden lg:flex flex-col max-w-[1920px] my-10 rounded-3xl h-[1877px]  text-white gap-28 justify-center items-center px-0 lg:px-16 bg-[url('/ourprocessback.png')] bg-cover">
+                     <div className="hidden lg:flex flex-col container my-10 rounded-3xl h-[1877px]  text-white gap-28 justify-center items-center bg-[url('/ourprocessback.png')] bg-cover">
                             <motion.div initial={{ opacity: 0, y: 180 }} whileInView={{ opacity: 1, y: 0 }} transition={{ ease: "easeOut", duration: 1 }} className="flex justify-center gap-10 items-center">
 
                                    <div className="flex flex-col  w-1/2 text-left">
@@ -44,7 +44,7 @@ const OurProcess = () => {
                      </div >
                      <ScrollAnimationWrapper>
                             <div className="flex flex-col gap-24 px-10 lg:hidden h-[1763px] justify-center bg-[url('/sustainabilitybackmobile.png')] bg-cover">
-                                   <motion.div initial={{ opacity: 0, x: -180 }} whileInView={{ opacity: 1, x: 0 }} transition={{ ease: "easeOut", duration: 1 }} className="flex justify-center gap-5 items-center">
+                                   <motion.div initial={{ opacity: 0, y: 180 }} whileInView={{ opacity: 1, y: 0 }} transition={{ ease: "easeOut", duration: 1 }} className="flex justify-center gap-5 items-center">
 
                                           <div className="flex flex-col text-center">
                                                  <div className="text-[33px] font-extrabold text-[#CFB023]">Liquid Gold</div>
@@ -53,14 +53,14 @@ const OurProcess = () => {
                                           </div>
 
                                    </motion.div>
-                                   <motion.div initial={{ opacity: 0, x: 180 }} whileInView={{ opacity: 1, x: 0 }} transition={{ ease: "easeOut", duration: 1 }} className="flex justify-center gap-5 items-center">
+                                   <motion.div initial={{ opacity: 0, y: 180 }} whileInView={{ opacity: 1, y: 0 }} transition={{ ease: "easeOut", duration: 1 }} className="flex justify-center gap-5 items-center">
 
                                           <div className="flex flex-col text-center">
                                                  <div className="text-[33px] font-extrabold text-[#CFB023]">Tender Coconut</div>
                                                  <div className="font-normal text-justify  text-[20px] text-[#A17D42] ">These nuts are hand picked when they are still young and tender, where the water content of the nuts is at its peak and the taste is super fresh.</div>
                                           </div>
                                    </motion.div>
-                                   <motion.div initial={{ opacity: 0, x: -180 }} whileInView={{ opacity: 1, x: 0 }} transition={{ ease: "easeOut", duration: 1 }} className="flex justify-center gap-5 items-center">
+                                   <motion.div initial={{ opacity: 0, y: 180 }} whileInView={{ opacity: 1, y: 0 }} transition={{ ease: "easeOut", duration: 1 }} className="flex justify-center gap-5 items-center">
 
                                           <div className="flex flex-col text-center">
                                                  <div className="text-[33px] font-extrabold text-[#CFB023]">Craftsmanship in Every Drop</div>
@@ -68,7 +68,7 @@ const OurProcess = () => {
                                           </div>
 
                                    </motion.div>
-                                   <motion.div initial={{ opacity: 0, x: 180 }} whileInView={{ opacity: 1, x: 0 }} transition={{ ease: "easeOut", duration: 1 }} className="flex justify-center gap-5 items-center">
+                                   <motion.div initial={{ opacity: 0, y: 180 }} whileInView={{ opacity: 1, y: 0 }} transition={{ ease: "easeOut", duration: 1 }} className="flex justify-center gap-5 items-center">
 
                                           <div className="flex flex-col text-center">
                                                  <div className="text-[33px] font-extrabold text-[#CFB023]">Sealed with Care</div>
