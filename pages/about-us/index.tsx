@@ -8,7 +8,7 @@ const AboutUs = () => {
        return (
               <ScrollAnimationWrapper>
                      <div className="flex items-center">
-                            <div className="hidden md:flex max-w-[1920px] mx-10 my-10  h-[80vh] justify-center items-center px-0 lg:px-24 bg-[#FFF4E2]  rounded-3xl ">
+                            <div className="hidden md:flex max-w-[1920px] my-10  h-[80vh] justify-center items-center px-0 lg:px-24 bg-[#FFF4E2]  rounded-3xl ">
                                    <motion.div variants={scrollAnimation}>
                                           <div className="xl:block md:block hidden" >
                                                  <Image src={"/aboutus.png"} alt={"aboutus"} loading="eager" quality={100} width={400} height={350} />
