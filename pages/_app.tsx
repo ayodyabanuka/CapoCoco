@@ -9,7 +9,7 @@ function App({ Component, pageProps }: AppProps) {
        return (
               <>
                      <Head>
-                            {/* <link rel="shortcut icon" href={'/topadsfavicon.png'} /> */}
+                            <link rel="shortcut icon" href={'/favicon.png'} />
                             <title>CapoCoco</title>
                      </Head>
                      <NextNProgress color="#8C6120" />
