@@ -38,7 +38,7 @@ const Header = () => {
                             className={`w-full flex justify-center`}
                      >
                             <div className="hidden lg:flex items-center lg:mx-10 max-w-[1540px] w-full justify-between p-5 ">
-                                   <Image src={"/logo.png"} width={70} height={70} alt={"logo"} />
+                                   <Link href={"/"}><Image src={"/logo.png"} width={90} height={90} alt={"logo"} /></Link>
                                    <div className="flex gap-5 text-[#42454A] text-[14px]">
                                           {NavList.map((item) =>
                                                  <Link key={item.title} href={item.link}><div className={`${router.pathname === item.link ? "bg-[#CFB023]  text-white px-2 py-1 rounded-lg" : "px-2 py-1 hover:bg-[#bd9434] rounded-lg hover:text-white transition-all ease-in-out"}`}>{item.title}</div></Link>
@@ -65,7 +65,7 @@ const Header = () => {
                                    </div>
 
                                    <MobileNav isOpen={isOpen} toggleOpen={toggleOpen} />
-                                   <Image src={"/logo.png"} width={70} height={70} alt={"logo"} />
+                                   <Link href={"/"}><Image src={"/logo.png"} width={70} height={70} alt={"logo"} /></Link>
                                    <div className="text-black"></div>
 
                             </div>
