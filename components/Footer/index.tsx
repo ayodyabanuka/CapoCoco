@@ -9,7 +9,7 @@ const Footer = () => {
                                    <div><MdEmail /> </div>
                                    <div>info@capococo.com</div>
                             </div>
-                            <div className="">
+                            <div className="text-white">
                                    © 2023. All rights reserved.
                             </div>
                      </div>

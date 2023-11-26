@@ -14,8 +14,7 @@ const OurProcess = () => {
 
                                    <div className="flex flex-col  w-1/2 text-left">
                                           <div className="text-[40px] font-extrabold text-[#CFB023]">Liquid Gold</div>
-                                          <div className="font-normal text-[20px] text-[#A17D42] ">Our journey begins in the lush tropical groves of Sri Lanka, where our dedicated harvesters handpick each King Coconut at the peak of freshness. The King Coconuts need to be picked after 8 months at JUST the right time, to ensure the finest quality and purity in every can.
-                                                 The Tender green coconuts are just as fresh, but picked while they are young and tender.</div>
+                                          <div className="font-normal text-[20px] text-[#A17D42] ">Our journey begins in the lush tropical groves of Sri Lanka, where our dedicated harvesters handpick each King Coconut at the peak of nutrition. The King Coconuts need to be picked after 8 months at just the right time, to ensure the finest quality and purity in every can.</div>
                                    </div>
                                    <Image src={"/liquidgold.png"} width={350} height={350} alt={""} ></Image>
                             </motion.div>
@@ -23,14 +22,14 @@ const OurProcess = () => {
                                    <Image src={"/tendercoconut.png"} width={350} height={350} alt={""} ></Image>
                                    <div className="flex flex-col  w-1/2  text-left">
                                           <div className="text-[40px] font-extrabold text-[#CFB023]">Tender Coconut</div>
-                                          <div className="font-normal text-[20px] text-[#A17D42] ">These nuts are hand picked when they are still young and tender, where the water content of the nuts is at its peak and the taste is super fresh.</div>
+                                          <div className="font-normal text-[20px] text-[#A17D42] ">The Tender green coconuts are just as fresh, but picked while they are young and tender where the water content is perfect and the taste is delightful.</div>
                                    </div>
                             </motion.div>
                             <motion.div initial={{ opacity: 0, y: 180 }} whileInView={{ opacity: 1, y: 0 }} transition={{ ease: "easeOut", duration: 1 }} className="flex justify-center gap-10 items-center">
 
                                    <div className="flex flex-col  w-1/2  text-left">
                                           <div className="text-[40px] font-extrabold text-[#CFB023]">Craftsmanship in Every Drop</div>
-                                          <div className="font-normal text-[20px] text-[#A17D42] ">Our extraction process preserves the natural taste and goodness of King Coconuts. From the initial extraction to quality control, we employ utmost care and expertise to create a beverage fit for a royal experience.</div>
+                                          <div className="font-normal text-[20px] text-[#A17D42] ">Our extraction process preserves the natural taste and goodness of our coconuts. From the initial extraction to quality control, we employ utmost care and expertise to create a beverage fit for a royal experience.</div>
                                    </div>
                                    <Image src={"/craftmanshipinevery.png"} width={350} height={350} alt={""} ></Image>
                             </motion.div>
@@ -48,8 +47,7 @@ const OurProcess = () => {
 
                                           <div className="flex flex-col text-center">
                                                  <div className="text-[33px] font-extrabold text-[#CFB023]">Liquid Gold</div>
-                                                 <div className="font-normal text-justify text-[20px] text-[#A17D42] ">Our journey begins in the lush tropical groves of Sri Lanka, where our dedicated harvesters handpick each King Coconut at the peak of freshness. The King Coconuts need to be picked after 8 months at JUST the right time, to ensure the finest quality and purity in every can.
-                                                        The Tender green coconuts are just as fresh, but picked while they are young and tender.</div>
+                                                 <div className="font-normal text-justify text-[20px] text-[#A17D42] ">Our journey begins in the lush tropical groves of Sri Lanka, where our dedicated harvesters handpick each King Coconut at the peak of nutrition. The King Coconuts need to be picked after 8 months at just the right time, to ensure the finest quality and purity in every can.</div>
                                           </div>
 
                                    </motion.div>
@@ -57,14 +55,14 @@ const OurProcess = () => {
 
                                           <div className="flex flex-col text-center">
                                                  <div className="text-[33px] font-extrabold text-[#CFB023]">Tender Coconut</div>
-                                                 <div className="font-normal text-justify  text-[20px] text-[#A17D42] ">These nuts are hand picked when they are still young and tender, where the water content of the nuts is at its peak and the taste is super fresh.</div>
+                                                 <div className="font-normal text-justify  text-[20px] text-[#A17D42] ">The Tender green coconuts are just as fresh, but picked while they are young and tender where the water content is perfect and the taste is delightful.</div>
                                           </div>
                                    </motion.div>
                                    <motion.div initial={{ opacity: 0, y: 180 }} whileInView={{ opacity: 1, y: 0 }} transition={{ ease: "easeOut", duration: 1 }} className="flex justify-center gap-5 items-center">
 
                                           <div className="flex flex-col text-center">
                                                  <div className="text-[33px] font-extrabold text-[#CFB023]">Craftsmanship in Every Drop</div>
-                                                 <div className="font-normal text-justify text-[20px] text-[#A17D42] ">Our extraction process preserves the natural taste and goodness of King Coconuts. From the initial extraction to quality control, we employ utmost care and expertise to create a beverage fit for a royal experience.</div>
+                                                 <div className="font-normal text-justify text-[20px] text-[#A17D42] ">Our extraction process preserves the natural taste and goodness of our coconuts. From the initial extraction to quality control, we employ utmost care and expertise to create a beverage fit for a royal experience.</div>
                                           </div>
 
                                    </motion.div>

@@ -11,10 +11,10 @@ const Home = () => {
                      <div className="text-black px-0 md:px-5 lg:px-10 xl:px-0">
                             <div className="hidden md:grid grid-cols-2 items-center p-10 my-10 h-[90vh] rounded-3xl mt-fit bg-cover bg-[url('/home-bg.png')]">
                                    <motion.div className=" p-20 place-self-center place-items-center place-content-center" variants={scrollAnimation}>
-                                          <div className="font-extrabold text-6xl lg:text-7xl capitalize text-[#CFB023] lg:leading-[70px]">
+                                          <div className="font-extrabold text-6xl lg:text-7xl capitalize text-[#CFB023] lg:leading-[80px]">
                                                  Pure organic goodness in every sip
                                           </div>
-                                          <div className="font-medium md:text-base lg:text-[24px] mt-10 text-[#A17D42] leading-6 lg:leading-[30px] ">
+                                          <div className="font-medium md:text-base lg:text-[30px] mt-10 text-[#A17D42] leading-6 lg:leading-[35px] ">
                                                  Hydrate and refresh with Capo Coco – produced by nature
                                           </div>
                                    </motion.div>
