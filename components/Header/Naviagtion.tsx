@@ -51,7 +51,6 @@ const Naviagtion = ({ toggleOpen }: Props) => {
         <motion.li
           className="gap-3"
           variants={menuItemVariant}
-          whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
           onClick={() => {
             toggleOpen();

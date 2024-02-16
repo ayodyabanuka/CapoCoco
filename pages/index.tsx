@@ -18,7 +18,7 @@ const Home = () => {
                                                  Hydrate and refresh with Capo Coco – produced by nature
                                           </div>
                                    </motion.div>
-                                   <motion.div variants={scrollAnimation} className="w-fit hidden lg:grid relative place-content-center place-items-center place-self-center">
+                                   <motion.div variants={scrollAnimation} className="w-64 hidden lg:grid relative place-content-center place-items-center place-self-center">
 
                                           <motion.div className="absolute"
                                                  initial={{ scale: 2 }}
@@ -26,7 +26,7 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/1.png"} alt={"cans"} width={250} quality={100} height={400}></Image>
+                                                 <Image src={"/1.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
 
                                           </motion.div>
                                           <motion.div
@@ -36,7 +36,7 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/2.png"} alt={"cans"} width={250} quality={100} height={400}></Image>
+                                                 <Image src={"/2.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
 
                                           </motion.div>
                                           <motion.div
@@ -46,7 +46,7 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/3.png"} alt={"cans"} width={250} quality={100} height={400}></Image>
+                                                 <Image src={"/3.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
 
                                           </motion.div>
                                           <motion.div
@@ -56,7 +56,7 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/4.png"} alt={"cans"} width={250} quality={100} height={400}></Image>
+                                                 <Image src={"/4.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
 
                                           </motion.div>
                                           <motion.div
@@ -66,13 +66,13 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/5.png"} alt={"cans"} width={250} quality={100} height={400}></Image>
+                                                 <Image src={"/5.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
 
                                           </motion.div>
 
 
                                    </motion.div>
-                                   <motion.div variants={scrollAnimation} className="w-fit md:grid lg:hidden relative place-content-center place-items-center place-self-center">
+                                   <motion.div variants={scrollAnimation} className="w-64 md:grid lg:hidden relative place-content-center place-items-center place-self-center">
 
                                           <motion.div className="absolute"
                                                  initial={{ scale: 2 }}
@@ -80,7 +80,7 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/1.png"} alt={"cans"} width={150} quality={100} height={400}></Image>
+                                                 <Image src={"/1.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
 
                                           </motion.div>
                                           <motion.div
@@ -90,7 +90,7 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/2.png"} alt={"cans"} width={150} quality={100} height={400}></Image>
+                                                 <Image src={"/2.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
 
                                           </motion.div>
                                           <motion.div
@@ -100,7 +100,7 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/3.png"} alt={"cans"} width={150} quality={100} height={400}></Image>
+                                                 <Image src={"/3.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
 
                                           </motion.div>
                                           <motion.div
@@ -110,7 +110,7 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/4.png"} alt={"cans"} width={150} quality={100} height={400}></Image>
+                                                 <Image src={"/4.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
 
                                           </motion.div>
                                           <motion.div
@@ -120,7 +120,7 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/5.png"} alt={"cans"} width={150} quality={100} height={400}></Image>
+                                                 <Image src={"/5.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
 
                                           </motion.div>
 
