@@ -2,9 +2,10 @@ import ScrollAnimationWrapper from "@/components/layout/ScrollAnimationWrapper"
 import getScrollAnimation from "@/utils/getScrollAnimation";
 import { motion } from "framer-motion"
 import Image from "next/image"
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 const Home = () => {
+
        const scrollAnimation = useMemo(() => getScrollAnimation(), []);
        return (
               <ScrollAnimationWrapper>
@@ -25,8 +26,9 @@ const Home = () => {
                                                  animate={{ y: [-5, -25, -5], rotate: [1, 10, 1], scale: 2 }}
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
+
                                           >
-                                                 <Image src={"/1.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
+                                                 <Image src={"/1.png"} alt={"cans"} width={2000} quality={100} height={2300} priority ></Image>
 
                                           </motion.div>
                                           <motion.div
@@ -36,7 +38,7 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/2.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
+                                                 <Image src={"/2.png"} alt={"cans"} width={2000} quality={100} height={2300} priority ></Image>
 
                                           </motion.div>
                                           <motion.div
@@ -46,7 +48,7 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/3.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
+                                                 <Image src={"/3.png"} alt={"cans"} width={2000} quality={100} height={2300} priority ></Image>
 
                                           </motion.div>
                                           <motion.div
@@ -56,7 +58,7 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/4.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
+                                                 <Image src={"/4.png"} alt={"cans"} width={2000} quality={100} height={2300} priority ></Image>
 
                                           </motion.div>
                                           <motion.div
@@ -66,7 +68,7 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/5.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
+                                                 <Image src={"/5.png"} alt={"cans"} width={2000} quality={100} height={2300} priority loading="eager"></Image>
 
                                           </motion.div>
 
@@ -80,7 +82,7 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/1.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
+                                                 <Image src={"/1.png"} alt={"cans"} width={2000} quality={100} height={2300} priority ></Image>
 
                                           </motion.div>
                                           <motion.div
@@ -90,7 +92,7 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/2.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
+                                                 <Image src={"/2.png"} alt={"cans"} width={2000} quality={100} height={2300} priority ></Image>
 
                                           </motion.div>
                                           <motion.div
@@ -100,7 +102,7 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/3.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
+                                                 <Image src={"/3.png"} alt={"cans"} width={2000} quality={100} height={2300} priority ></Image>
 
                                           </motion.div>
                                           <motion.div
@@ -110,7 +112,7 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/4.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
+                                                 <Image src={"/4.png"} alt={"cans"} width={2000} quality={100} height={2300} priority ></Image>
 
                                           </motion.div>
                                           <motion.div
@@ -120,7 +122,7 @@ const Home = () => {
                                                  transition={{ repeat: Infinity, duration: 3 }}
 
                                           >
-                                                 <Image src={"/5.png"} alt={"cans"} width={2000} quality={100} height={2300}></Image>
+                                                 <Image src={"/5.png"} alt={"cans"} width={2000} quality={100} height={2300} priority ></Image>
 
                                           </motion.div>
 
